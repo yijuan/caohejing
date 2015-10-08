@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{ margin:0px; padding:0px;}
+.t_top{ height:50px; background-color:#66CCCC; text-align:center; line-height:50px; margin-bottom:15px;}
+h2{  color:#FFF;}
+.t_bottom{ text-align: center;}
+.t_bottom input{ height:30px; size:100px; width:300px; border-radius:10px;}
+
+.tx{ width:300px; height:150px; margin-top:20px; border:1px solid #999; margin:50px 0px 0px 38px; background-color:#EAEAEA}
+
+
+

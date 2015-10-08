@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+*{ margin:0px; padding:0px;}
+#container{ height:500px;}
+.t_top{ height:50px; background-color:#66CCCC; text-align:center; line-height:50px; margin-bottom:15px;}
+.t_bottom{ text-align:center; }
+h2{  color:#FFF;}
+.t_bottom input{ height:30px; size:100px; width:300px; margin-top:15px; border-radius:10px;}
+.tx{ width:350px; height:150px; margin:70px 4% 0px 4%; background-color:#EAEAEA;border-radius:5px;}
+p{ font-weight:500; margin-left:10px;}
+
+.lab{ color:#ff9900; font-size:16px; font-weight:bold; margin:10px 0px 0px 5px;}
+.tex{ margin:20px 0px 10px 40px;}
+
+.age{ margin-top:20px;}
+.age select{ margin-left:30px;}
+
+radio{ padding:0px; margin:0px;}
+
+.t_bo input{height:40px; size:90px; width:200px; margin-top:15px;}
+.t_bo div{ text-align: center;}
+.t_bo{ text-align: center;}
+
+table{ text-align:center; margin-left:60px;}
+

@@ -1,0 +1,86 @@
+ {
+    "button": [
+        
+        {
+            "name": "自助服务",
+            "sub_button": [
+                {
+                    "type": "view",
+                    "name": "药品目录",
+                    "url": "http://yijuan.sh-hansi.com/medcalItem/queryDrug/queryDrug"
+                },
+                {
+                    "type": "view",
+                    "name": "辅检目录",
+                    "url": "http://yijuan.sh-hansi.com/medcalItem/queryItem/queryItem"
+                },
+                {
+                    "type": "view",
+                    "name": "化验报告查询",
+                    "url": "http://yijuan.sh-hansi.com/medcalItem/inspect/queryInspect"
+                },
+                {
+                    "type": "view",
+                    "name": "影像报告查询",
+                    "url": "http://yijuan.sh-hansi.com/medcalItem/check/check"
+                }
+            ]
+        },
+        
+        {
+            "name": "健康E站",
+            "sub_button": [
+                {
+                    "type": "view",
+                    "name": "慢病防治",
+                    "url": "http://www.baidu.com"
+                },
+                {
+                    "type": "view",
+                    "name": "中医养生",
+                   "url": "http://www.baidu.com"
+                },
+                {
+                    "type": "view",
+                    "name": "妇幼保健",
+                    "url": "http://www.baidu.com"
+                },
+                {
+                    "type": "view",
+                    "name": "传染病预防",
+                    "url": "http://www.baidu.com"
+                }
+            ]
+          },
+          
+          {
+            "name": "关于我们",
+            "sub_button": [
+                {
+                    "type": "click",
+                    "name": "中心简介",
+                    "key": "intro"
+                },
+                {
+                    "type": "view",
+                    "name": "家医团队简介",
+                    "url": "http://yijuan.sh-hansi.com/medcalItem/guide/guide"
+                },
+                {
+                    "type": "view",
+                    "name": "就诊指南",
+                    "url": "http://yijuan.sh-hansi.com/medcalItem/contactUs/medical"
+                },
+                {
+                    "type": "view",
+                    "name": "联系我们",
+                   "url": "http://yijuan.sh-hansi.com/medcalItem/contactUs/contactUs"
+                }
+            ]
+        }
+          
+          
+          
+          
+    ]
+}

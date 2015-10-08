@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+*{ margin:0px; padding:0px;}
+#container{ height:600px;margin:5px; border: 1px solid #66CCCC;border-radius:10px;}
+.t_top{height:50px; background-color:#66CCCC; text-align:center; line-height:50px; margin-bottom:15px;border-top-left-radius: 9px;
+	border-top-right-radius: 9px;}
+h2{  color:#FFF;}
+
+
+table{ text-align:center;}
+
+.table{
+	border: 1px solid #ddd;
+	width: 100%;
+	max-width: 100%;
+	border-collapse: collapse;
+	border-spacing: 2px;
+	border-color: gray;
+}
+
+.table thead{
+	font-size: 14px;
+	display: table-header-group;
+	vertical-align: middle;
+	border-color: inherit;
+}
+.table thead td{
+	padding: 4px;
+	line-height: -1;
+	vertical-align: middle;
+	border-bottom-width: 2px;
+	background-color: #ff9933;
+}
+.table tr{
+	display: table-row;
+	vertical-align: inherit;
+	border-color: inherit;
+}
+.table td{
+	border: 1px solid #ddd;
+}
+.table tbody{
+	display: table-row-group;
+	vertical-align: middle;
+	border-color: inherit;
+}
+.table tbody td{
+	font-size: 14px;
+	text-align:center;
+	line-height: -1;
+	vertical-align: middle;
+	border-top: 1px solid #ddd;
+}
+
+
+
