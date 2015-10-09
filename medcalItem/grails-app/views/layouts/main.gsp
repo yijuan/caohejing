@@ -42,6 +42,10 @@
 				<p >
 					<g:link url="${resource(dir:'station')}">维护站点</g:link>
 				</p>
+				
+				<p >
+					<g:link url="${resource(dir:'ehealth')}">健康E站</g:link>
+				</p>
 				</sec:ifAnyGranted>
 				</div>
 	         </div>

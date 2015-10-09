@@ -10,8 +10,8 @@ class BootStrap {
 		   com.surelution.query.Constants.DB_FILE_PATH = "${Holders.config.grails.dbFile.rootPath}"+dbFile.path
 		}else{}
 		
-//		def testUser = new com.surelution.medical.User(username:'test',enabled:true,password:'test')
-//		testUser.save(flush:true)
+		def testUser = new com.surelution.medical.User(username:'admin1',enabled:true,password:'admin1')
+		testUser.save(flush:true)
 		
 		
     }

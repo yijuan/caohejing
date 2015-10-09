@@ -14,4 +14,5 @@ class Child {
 	Vaccine vaccine  //注射过何种疫苗
 	Date  injectTime  //注射疫苗时间
 	
+	
 }
