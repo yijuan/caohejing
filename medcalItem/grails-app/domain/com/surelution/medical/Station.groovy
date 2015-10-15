@@ -3,7 +3,7 @@ package com.surelution.medical
 class Station {
 
     static constraints = {
-		
+		name blank: false
     }
 	
 	String name

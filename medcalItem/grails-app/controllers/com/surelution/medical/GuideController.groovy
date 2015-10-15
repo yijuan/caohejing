@@ -26,7 +26,13 @@ class GuideController {
 	
 	def showPic(Long id){
 		def station = Station.get(id)
-		[station:station]
+		def doctors = Doctor.findAllByStation(station)
+		[station:station,doctors:doctors]
+	}
+	
+	def showDoctor(Long id){
+		def doctor = Doctor.get(id)
+		[doctor:doctor]
 	}
 	
 

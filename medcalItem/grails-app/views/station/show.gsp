@@ -81,7 +81,7 @@
 				<span class="property-label">站点图片</span>		
 				    <span> 
 				       <g:uploadForm name="savePic" action="savePic" enctype= "multipart/form-data">
-	                   <input type="file" name="stationPic"/>
+	                   <input type="file" name="stationPic" accept="image/*"/>
 	                   <input type="hidden" name="id" value="${stationInstance?.id}">
 	                   <g:submitButton name="savePic" value="上传"/>
                        </g:uploadForm>  

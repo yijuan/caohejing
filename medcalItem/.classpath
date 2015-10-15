@@ -18,7 +18,6 @@
 	<classpathentry kind="lib" path="lib/hsqldb.jar"/>
 	<classpathentry kind="lib" path="lib/jackcess-2.1.2.jar"/>
 	<classpathentry kind="lib" path="lib/ucanaccess-3.0.0.jar"/>
-	<classpathentry kind="lib" path="lib/queryItem.jar"/>
 	<classpathentry kind="lib" path="lib/json.jar"/>
 	<classpathentry kind="lib" path="lib/httpclient-4.3.4.jar"/>
 	<classpathentry kind="lib" path="lib/httpclient-cache-4.3.4.jar"/>
@@ -32,6 +31,7 @@
 	<classpathentry kind="lib" path="lib/fluent-hc-4.3.4.jar"/>
 	<classpathentry kind="lib" path="lib/hamcrest-core-1.1.jar"/>
 	<classpathentry kind="lib" path="lib/jdom-1.1.jar"/>
+	<classpathentry kind="lib" path="lib/queryItem.jar"/>
 	<classpathentry excluding="BuildConfig.groovy|*DataSource.groovy|UrlMappings.groovy|Config.groovy|BootStrap.groovy|spring/resources.groovy" kind="src" path=".link_to_grails_plugins/cache-1.0.1/grails-app/conf">
 		<attributes>
 			<attribute name="org.grails.ide.eclipse.core.SOURCE_FOLDER" value="true"/>

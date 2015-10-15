@@ -13,7 +13,7 @@
 </head>
 
 <body>
-	<div id="container">
+	<div id="container" style="height: 555px;">
 	    <div class="t_top">
 	        <h3>卫生服务中心 - 就诊指南</h3>
 	    </div>

@@ -9,10 +9,42 @@ class EhealthController {
     def index() {
         redirect(action: "list", params: params)
     }
+	
+//	def queryEhealth(){
+//		def ehealthName = params.ehealthName
+//		def ehealthInstanceList = Ehealth.findAllByNameLike(ehealthName)
+//		redirect(action:"list",params:[ehealthInstanceList:ehealthInstanceList])
+//	}
 
     def list(Integer max) {
         params.max = Math.min(max ?: 10, 100)
-        [ehealthInstanceList: Ehealth.list(params), ehealthInstanceTotal: Ehealth.count()]
+		params.offset = params.offset?params.offset:0
+//		def ehealthName = params.ehealthName
+//		def ehealthInstanceList = Ehealth.findAllByNameLike(ehealthName)
+//		
+//		def typeName = params.typeName
+//		def type = Type.get(typeName)
+//		def ehealthList = Ehealth.findAllByType(type)
+//		
+//		if(ehealthInstanceList.size()>0){
+//			[ehealthInstanceList:ehealthInstanceList,ehealthInstanceTotal:ehealthInstanceList.size()]
+//		}else if(ehealthList.size()>0){
+//		    [ehealthInstanceList:ehealthList,ehealthInstanceTotal:ehealthList.size()]
+		def  ehealthInstanceList = Ehealth.list(params)
+		if(params.ehealthName){
+			def ehealthName = params.ehealthName
+			ehealthInstanceList=Ehealth.createCriteria().list(max: params.max, offset: params.offset) {
+			  eq('name',ehealthName)
+				}
+			}else if(params.typeName){
+			def typeName = params.typeName
+			def type = Type.get(typeName)
+			ehealthInstanceList=Ehealth.createCriteria().list(max: params.max, offset: params.offset) {
+				eq('type',type)
+				  }
+			}
+	       [ehealthInstanceList: ehealthInstanceList, ehealthInstanceTotal: ehealthInstanceList?.totalCount?ehealthInstanceList.totalCount:0]
+
     }
 
     def create() {
@@ -23,9 +55,9 @@ class EhealthController {
         def ehealthInstance = new Ehealth(params)
         if (!ehealthInstance.save(flush: true)) {
             render(view: "create", model: [ehealthInstance: ehealthInstance])
+			flash.message="疾病名称不能为空"
             return
-        }
-
+        } 
         flash.message = message(code: 'default.created.message', args: [message(code: 'ehealth.label', default: 'Ehealth'), ehealthInstance.id])
         redirect(action: "show", id: ehealthInstance.id)
     }

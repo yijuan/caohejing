@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta name="layout" content="main"/>
-		<title>微信营销后台</title>
+		<title>微信管理后台</title>
 		<style type="text/css" media="screen">
 			#status {
 				background-color: #eee;

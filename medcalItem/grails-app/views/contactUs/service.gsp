@@ -18,7 +18,7 @@
 	        <h3>卫生服务中心 - 就诊指南</h3>
 	    </div>
 		
-		<div class="NewsTitle">漕河泾街道社区卫生服务中心医技科服务指南</div>
+		<div><h2 style="color:#3e901c">漕河泾街道社区卫生服务中心医技科服务指南</h2></div>
 <div class="NewsContent">
     <P><STRONG><IMG style="width: 100%"  BORDER="0" HSPACE="0" ALT="" SRC="${resource(dir:'images',file:'4.gif') }"></STRONG>&nbsp;</P>
 

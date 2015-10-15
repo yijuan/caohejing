@@ -3,7 +3,7 @@
 
 
 *{ margin:0px; padding:0px;}
-#container{ height:600px;margin:5px; border: 1px solid #66CCCC;border-radius:10px;}
+#container{ margin:5px; border: 1px solid #66CCCC;border-radius:10px;}
 .t_top{height:50px; background-color:#66CCCC; text-align:center; line-height:50px; margin-bottom:15px;border-top-left-radius: 9px;
 	border-top-right-radius: 9px;}
 h2{  color:#FFF;}

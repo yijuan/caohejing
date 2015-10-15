@@ -3,6 +3,7 @@ package com.surelution.medical
 class Ehealth {
 
     static constraints = {
+		name blank:false
     }
 	
 	String name

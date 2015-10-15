@@ -7,6 +7,7 @@
 	<processor-chain>
 	    <processor>com.surelution.medical.FocusingAction</processor>
 	    <processor>com.surelution.medical.IntroductAction</processor>
+	    <processor>com.surelution.medical.ConmentAction</processor>
 		<processor>com.surelution.whistle.core.SampleAction</processor>
 	</processor-chain>
 </wx>

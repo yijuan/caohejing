@@ -79,4 +79,8 @@
 	.error ul {
 		margin-left: 0;
 	}
+	
+	textArea{
+	  size: 10;
+	}
 }

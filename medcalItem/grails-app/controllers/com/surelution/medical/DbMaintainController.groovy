@@ -20,7 +20,9 @@ class DbMaintainController {
 				file.transferTo(new File("${Holders.config.grails.dbFile.rootPath}${path}"))
 				
 				com.surelution.query.Constants.DB_FILE_PATH = "${Holders.config.grails.dbFile.rootPath}"+path
-			}
+			
+				flash.message = "数据库文件上传成功！"
+				}
 		}
 	}
 }

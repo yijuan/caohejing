@@ -19,13 +19,16 @@
 	    </div>
 		<div id="List">
     <g:each in="${med}" var="m">
+    <a href="${createLink(action:'showMedisine',controller:'showContent',id:m.id)}"">
     <table width="98%" border="0" align="center" class="ta">
         <tr>
             <td width="30" height="25" align="center">
                 <img src="${resource(dir:'images',file:'PointPic.png') }" alt=""></td>
-            <td valign="top"><a href="">${m.name }</a></td> 
+            <td valign="top">${m.name } </td>
+            <td width="50"><span>&gt;&gt;</span></td> 
         </tr>
     </table>
+    </a>
     </g:each>
        </div>	
 	</div>

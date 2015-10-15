@@ -1,15 +1,6 @@
 <%@ page import="com.surelution.medical.Ehealth" %>
 
 
-
-<div class="fieldcontain ${hasErrors(bean: ehealthInstance, field: 'fileUrl', 'error')} ">
-	<label for="fileUrl">
-		<g:message code="ehealth.fileUrl.label" default="File Url" />
-		
-	</label>
-	<g:textField name="fileUrl" value="${ehealthInstance?.fileUrl}"/>
-</div>
-
 <div class="fieldcontain ${hasErrors(bean: ehealthInstance, field: 'name', 'error')} ">
 	<label for="name">
 		<g:message code="ehealth.name.label" default="Name" />
@@ -25,4 +16,14 @@
 	</label>
 	<g:select id="type" name="type.id" from="${com.surelution.medical.Type.list()}" optionValue="name" optionKey="id" required="" value="${ehealthInstance.type?.id}" class="many-to-one"/>
 </div>
+
+<div class="fieldcontain ${hasErrors(bean: ehealthInstance, field: 'fileUrl', 'error')} ">
+	<label for="fileUrl">
+		<g:message code="ehealth.fileUrl.label" default="File Url" />
+		
+	</label>
+	<%--<g:textField name="fileUrl" value="${ehealthInstance?.fileUrl}"/>--%>
+	<g:textArea name="fileUrl" value="${ehealthInstance?.fileUrl }"></g:textArea>
+</div>
+
 

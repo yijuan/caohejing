@@ -27,6 +27,7 @@ class StationController {
         def stationInstance = new Station(params)
         if (!stationInstance.save(flush: true)) {
             render(view: "create", model: [stationInstance: stationInstance])
+			flash.message="站点名称不能为空！"
             return
         }
 

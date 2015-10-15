@@ -22,9 +22,13 @@
 				<thead>
 					<tr>
 					
-						
+						<th><g:message code="station.name.label" default="Name"/></th>
+						<th><g:message code="station.phone.label" default="Phone"/></th>
+						<th><g:message code="station.stationAddress.label" default="Station Address"/></th>
+						<th><g:message code="station.serviceItem.label" default="Service Item"/></th>
+						<th><g:message code="station.serviceTime.label" default="Service Time"/></th>
 					
-						<g:sortableColumn property="name" title="${message(code: 'station.name.label', default: 'Name')}" />
+						<%--<g:sortableColumn property="name" title="${message(code: 'station.name.label', default: 'Name')}" />
 					
 						<g:sortableColumn property="phone" title="${message(code: 'station.phone.label', default: 'Phone')}" />
 					
@@ -32,7 +36,7 @@
 					
 						<g:sortableColumn property="serviceTime" title="${message(code: 'station.serviceTime.label', default: 'Service Time')}" />
 					
-						<g:sortableColumn property="stationAddress" title="${message(code: 'station.stationAddress.label', default: 'Station Address')}" />
+						<g:sortableColumn property="stationAddress" title="${message(code: 'station.stationAddress.label', default: 'Station Address')}" />--%>
 					
 					</tr>
 				</thead>
@@ -40,16 +44,15 @@
 				<g:each in="${stationInstanceList}" status="i" var="stationInstance">
 					<tr class="${(i % 2) == 0 ? 'even' : 'odd'}">
 					
-						<td><g:link action="show" id="${stationInstance.id}">${fieldValue(bean: stationInstance, field: "name")}</g:link></td>
+						<td width="16%"><g:link action="show" id="${stationInstance.id}">${fieldValue(bean: stationInstance, field: "name")}</g:link></td>
 					
-						<td>${fieldValue(bean: stationInstance, field: "phone")}</td>
+						<td width="10%">${fieldValue(bean: stationInstance, field: "phone")}</td>
+						<td>${fieldValue(bean: stationInstance, field: "stationAddress")}</td>
 					
 						<td>${fieldValue(bean: stationInstance, field: "serviceItem")}</td>
 					
 						<td>${fieldValue(bean: stationInstance, field: "serviceTime")}</td>
-					
-						<td>${fieldValue(bean: stationInstance, field: "stationAddress")}</td>
-					
+				
 					</tr>
 				</g:each>
 				</tbody>

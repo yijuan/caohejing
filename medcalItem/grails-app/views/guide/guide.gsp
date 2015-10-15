@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>站点分布及导航</title>
+<title>家医团队简介</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -17,7 +17,7 @@
 <body>
 	<div id="container">
 		<div class="t_top">
-		  <h2>附近的站点分布</h2>
+		  <h2>家医团队简介</h2>
 		</div>
 
         <div style=" margin-bottom:20px; margin-left:10px;">

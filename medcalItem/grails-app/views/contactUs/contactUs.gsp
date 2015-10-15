@@ -28,11 +28,12 @@
                 <td>中心地址：</td>
                 <td>徐汇区宾阳路38号</td>
               </tr>
+              <tr><td rowspan="2">联系电话： </td><td>54113581</td></tr>
+              <tr><td>54113581*总值班(双休日)</td></tr>
               <tr>
-                <td>投诉电话：</td>
-                <td>54112212（工作日）</td>
-              </tr>
-              <tr><td colspan="2">54113581*总值班（双休日）</td></tr>
+                 <td>投诉电话：</td>
+                 <td>54112212(工作日)</td>
+              </tr> 
               <tr><td>邮政编码：</td><td>200235</td></tr>
               <tr><td>邮箱：</td><td>chjddyy@xh.sh.cn</td></tr>
            </table>
@@ -42,10 +43,11 @@
            <h3 style="color:#ff9933 ">领导接待日</h3>
            <br/>
            <table border="1px solid" style="width: 100%">
-              <tr><td>接待时间：</td><td>每周二下午14：00～16：00</td></tr>
+              <tr><td>接待时间：</td><td>每周二14：00～16：00</td></tr>
               <tr><td>接待地点：</td><td>中心行政区一楼办公室</td></tr>
-              <tr><td>投诉电话：</td><td>54112212（工作日）</td></tr>
-              <tr><td colspan="2">投诉邮箱chjddyy@xh.sh.cn</td></tr>
+              <tr><td rowspan="2">投诉电话：</td><td>54112212(工作日)</td></tr>
+              <tr><td>54113581*总值班(双休日)</td></tr>
+              <tr><td>投诉邮箱：</td><td>chjddyy@xh.sh.cn</td></tr>
               <tr><td>徐汇区卫计委电话：</td><td>64872222</td></tr>
            </table>
         </div>
