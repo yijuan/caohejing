@@ -13,5 +13,5 @@
 		<g:message code="message.message.label" default="message" />	
 	</label>
 	<%--<g:textField name="fileUrl" value="${ehealthInstance?.fileUrl}"/>--%>
-	<g:textArea name="message" value="${messageInstance?.message }"></g:textArea>
+	<g:textArea name="message" value="${messageInstance?.message }" style="width:400px;float:center;height:300px;"></g:textArea>
 </div>
